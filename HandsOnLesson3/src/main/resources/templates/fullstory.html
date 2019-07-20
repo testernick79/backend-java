@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Full Story Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>Full Story</h1>
+
+<form action="#" th:action="@{/result}" th:object="${story}" method="post" >
+<input th:field="*{name}" placeholder="First Name" />
+<input th:field="*{animal}" placeholder="Animal Name" />
+<input th:field="*{years}" placeholder="Number Of Years" />
+<button >Submit</button>
+</form>
+
+</body>
+</html>
