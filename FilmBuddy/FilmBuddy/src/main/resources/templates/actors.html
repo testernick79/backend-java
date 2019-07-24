@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Actors Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Actors</h1>
+    <div th:if="${!Actors.empty}">
+        <table>
+            <tr>
+                <th>Actor</th>
+                <th>Film</th>                
+            </tr>
+            <tr th:each="Actor : ${Actors}">
+                <td th:text="${Actor.actor}">actor</td>
+                <td th:text="${Actor.film}">film</td>                
+            </tr>
+        </table>
+    </div>
+    <div th:if="${Actors.empty}">
+        <h3>No actors found!</h3>
+    </div>
+</body>
+</html>
