@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID: -//ScheduleOnce//EN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20190729T183427Z
+DTSTART:20190730T210000Z
+DTEND:20190730T220000Z
+DESCRIPTION:Attendee: \nNick Fonseca (tester.nick79@gmail.com) \n\n\nEvent type \nCareer Strategy Session with Andy Sterkowitz‌  \n\n\nBooking page: \nAndy Sterkowitz‌  \n\n\nConferencing information: \nMy Skype ID is: live:admin_161533 \n\n\nCustomer's cancel/reschedule link:  \nhttps://go.oncehub.com/AndySterkowitz?Params=IPLa6BkbZ-SLDYZn9H44ZKkC*ZCTYWvX \n\n\n \n\n\nTracking ID: \n2F9501A1 \n\n\nCustomer's mobile phone: \n+1 (208) 697-2970 \n\n\n \n
+LOCATION:My Skype ID is: live:admin_161533
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Nick Fonseca - Career Strategy Session with Andy Sterkowitz
+TRANSP:OPAQUE
+UID:7F9F4ADB-DCFC-48D4-9AA2-337A64F3F312
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
