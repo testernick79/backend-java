@@ -7,3 +7,4 @@
 - Lesson5) Use POSTMAN in order to Get requests from API created using Spring Hibernate
 - Lesson6) Use Stealess, and Resful API to get requests
 - Lesson7) Use Spring Tool Suite to create a secure login page
+- Lesson8) display an object to the display for the debugger. using Spring, MVC, logging and debugging
